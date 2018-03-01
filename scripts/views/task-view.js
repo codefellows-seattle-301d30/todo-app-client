@@ -11,7 +11,7 @@ var app = app || {};
   }
 
   taskView.initIndexPage = function (ctx) {
-    reset();
+    // reset();
     console.log('in init index');
     $('.task-view').show();
     $('#task-list').empty();
@@ -19,7 +19,7 @@ var app = app || {};
   }
 
   taskView.initAddForm = function () {
-    reset();
+    // reset();
     $('.add-view').show();
     $('#add-form').on('submit', function (event) {
       event.preventDefault();
